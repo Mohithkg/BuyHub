@@ -11,7 +11,6 @@
       <change afterPath="$PROJECT_DIR$/Store/migrations/0002_variation.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/Store/migrations/0003_alter_variation_variation_category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Carts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/urls.py" afterDir="false" />

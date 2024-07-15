@@ -7,6 +7,7 @@ from django.contrib import messages
 from django.contrib.auth.decorators import login_required
 from Carts.models import CartItem, Cart
 from Carts.views import _cart_id
+import requests
 def register(request):
     if request.method == "POST":
         form = RegistrationForm(request.POST)
@@ -78,8 +79,18 @@ def login(request):
                 pass
 
             auth.login(request, user)
-            #messages.success(request, "You are now logged in.")
-            return redirect('dashboard')
+            messages.success(request, "You are now logged in.")
+            url = request.META.get('HTTP_REFERER')
+            try:
+                query = requests.utils.urlparse(url).query
+                #print('query ->',query)
+                params = dict(x.split('=') for x in query.split('&'))
+                if 'next' in params:
+                    nextPage = params['next']
+                    return redirect(nextPage)
+
+            except:
+                return redirect('dashboard')
 
         else:
             messages.error(request, "Invalid login Credentials")

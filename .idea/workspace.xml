@@ -5,25 +5,21 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f635dd-5625-437d-9230-b5f160bfb565" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/templates/accounts/dashboard.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/accounts/forgotPassword.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/store/checkout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carts/migrations/0003_cartitem_variations.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carts/migrations/0004_rename_variations_cartitem_variation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Carts/migrations/0005_rename_variation_cartitem_variations_and_more.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store/migrations/0002_variation.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Store/migrations/0003_alter_variation_variation_category.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuyHub/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyHub/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Carts/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Carts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/dashboard.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/includes/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/includes/navbar.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/register.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/signin.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Store/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Store/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Store/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/cart.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/cart.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/product_detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/product_detail.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,15 +116,6 @@
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/Store/urls.py</url>
           <option name="timeStamp" value="3" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Store/models.py</url>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/Store/models.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

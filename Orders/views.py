@@ -1,5 +1,5 @@
 import json
-
+from django.http import JsonResponse
 from django.shortcuts import render,redirect
 from django.http import HttpResponse
 # Create your views here.
@@ -26,6 +26,13 @@ def payments(request):
     order.save()
 
     cart_items = CartItem.objects.filter(user= request.user)
+
+    data = {
+        'order_number': order.order_number,
+        'transID' : payment.payment_id,
+    }
+
+    return JsonResponse(data)
 
     for item in cart_items:
         orderproduct = OrderProduct()

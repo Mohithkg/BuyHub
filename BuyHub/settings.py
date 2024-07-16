@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'Store',
     'Carts',
     'Orders',
+
 ]
 
 MIDDLEWARE = [
@@ -149,4 +150,3 @@ MESSAGE_TAGS = {
     messages.INFO: 'info',
     messages.WARNING: 'warning',
 }
-

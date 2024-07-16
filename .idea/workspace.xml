@@ -5,15 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f635dd-5625-437d-9230-b5f160bfb565" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Orders/forms.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orders/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Orders/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/orders/payments.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Orders/migrations/0002_remove_orderproduct_color_remove_orderproduct_size.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuyHub/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyHub/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BuyHub/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyHub/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BuyHub/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyHub/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orders/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orders/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Orders/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/order_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/orders/order_complete.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/orders/payments.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/orders/payments.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/checkout.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -71,6 +74,7 @@
       <recent name="D:\BuyHub\Store" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\BuyHub\templates\orders" />
       <recent name="D:\BuyHub\templates\store" />
     </key>
   </component>

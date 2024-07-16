@@ -149,3 +149,4 @@ MESSAGE_TAGS = {
     messages.INFO: 'info',
     messages.WARNING: 'warning',
 }
+

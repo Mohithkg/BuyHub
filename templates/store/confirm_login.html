@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Confirm Login</title>
+</head>
+<body>
+    <script type="text/javascript">
+        if (confirm("You need to login to checkout?")) {
+            window.location.href = "{% url 'login' %}?next={{ request.GET.next }}";
+        } else {
+            window.location.href = "{% url 'cart' %}";  <!-- Redirect to home or any other page if user cancels -->
+        }
+    </script>
+</body>
+</html>

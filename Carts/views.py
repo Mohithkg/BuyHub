@@ -4,6 +4,8 @@ from django.core.exceptions import ObjectDoesNotExist
 from django.contrib.auth.decorators import login_required
 # Create your views here.
 from .models import Cart, CartItem
+from django.contrib import messages
+
 from django.http import HttpResponse
 
 def _cart_id(request):
@@ -190,7 +192,22 @@ def cart(request, total=0, quantity=0, cart_items=None):
     return render(request, 'store/cart.html', context)
 
 
-@login_required(login_url='login')
+def confirm_login(request):
+    return render(request, 'store/confirm_login.html')
+
+from functools import wraps
+
+def login_required_message(function=None, message='Login to Continue'):
+    @wraps(function)
+    def wrapper(request, *args, **kwargs):
+        if not request.user.is_authenticated:
+            messages.info(request, message)
+            return redirect('confirm_login')  # Redirect to a custom view for confirmation
+        return function(request, *args, **kwargs)
+    return wrapper
+
+
+@login_required_message
 def checkout(request,total=0, quantity=0, cart_items=None):
     tax = 0
     grand_total = 0

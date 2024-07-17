@@ -5,13 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="34f635dd-5625-437d-9230-b5f160bfb565" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/templates/includes/dashboard_sidebar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/store/confirm_login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BuyHub/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/BuyHub/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Accounts/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carts/context_processors.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/context_processors.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Carts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Carts/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Orders/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Orders/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/accounts/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/accounts/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/orders/order_complete.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/orders/order_complete.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/orders/payments.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/orders/payments.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/place-order.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/search-result.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/checkout.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/checkout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/store/store.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/store/store.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

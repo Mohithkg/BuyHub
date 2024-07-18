@@ -41,16 +41,17 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
 
 5. **Configure PostgreSQL Database**
 
-        Update the DATABASES setting in BuyHub/settings.py with your PostgreSQL credentials: <br />
-         DATABASES = { <br />
-          'default': { <br />
-              'ENGINE': 'django.db.backends.postgresql', <br />
-              'NAME': 'your_db_name', <br />
-              'USER': 'your_db_user', <br />
-              'PASSWORD': 'your_db_password', <br />
-              'HOST': 'your_db_host', <br />
-              'PORT': 'your_db_port', <br />
-          } <br />
+        Update the DATABASES setting in BuyHub/settings.py with your PostgreSQL credentials: 
+   
+         DATABASES =  
+          'default':  
+              'ENGINE': 'django.db.backends.postgresql',  
+              'NAME': 'your_db_name',  
+              'USER': 'your_db_user',  
+              'PASSWORD': 'your_db_password', 
+              'HOST': 'your_db_host',  
+              'PORT': 'your_db_port',  
+          }  
        }
 
 5. **Run Migrations** <br />

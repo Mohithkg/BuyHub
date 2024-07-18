@@ -28,12 +28,12 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
 
 1. **Clone the Repository**
 
-   git clone https://github.com/Mohithkg/BuyHub.git <br />
+   git clone https://github.com/Mohithkg/BuyHub.git  <br />
    cd BuyHub
 
 3. **Create a Virtual Environment and Activate It**
-    python -m venv env
-    source env/bin/activate  # On Windows use `env\Scripts\activate`
+    python -m venv env  <br />
+    source env/bin/activate <br /> # On Windows use `env\Scripts\activate`
 
 
 4. **Install the Required Packages** 
@@ -42,15 +42,15 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
 5. **Configure PostgreSQL Database**
 
   Update the DATABASES setting in BuyHub/settings.py with your PostgreSQL credentials:
-   DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'your_db_name',
-        'USER': 'your_db_user',
-        'PASSWORD': 'your_db_password',
-        'HOST': 'your_db_host',
-        'PORT': 'your_db_port',
-    }
+   DATABASES = { <br />
+    'default': { <br />
+        'ENGINE': 'django.db.backends.postgresql', <br />
+        'NAME': 'your_db_name', <br />
+        'USER': 'your_db_user', <br />
+        'PASSWORD': 'your_db_password', <br />
+        'HOST': 'your_db_host', <br />
+        'PORT': 'your_db_port', <br />
+    } <br />
 }
 
 5. **Run Migrations**
@@ -61,7 +61,7 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
   python manage.py createsuperuser
 
 7. **Run the Development Server**
-   python manage.py runserver
+   python manage.py runserver <br />
     Visit http://127.0.0.1:8000/ to access the application locally.
 
 ### Usage

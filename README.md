@@ -41,17 +41,17 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
 
 5. **Configure PostgreSQL Database**
 
-  Update the DATABASES setting in BuyHub/settings.py with your PostgreSQL credentials:
-   DATABASES = { <br />
-    'default': { <br />
-        'ENGINE': 'django.db.backends.postgresql', <br />
-        'NAME': 'your_db_name', <br />
-        'USER': 'your_db_user', <br />
-        'PASSWORD': 'your_db_password', <br />
-        'HOST': 'your_db_host', <br />
-        'PORT': 'your_db_port', <br />
-    } <br />
-}
+        Update the DATABASES setting in BuyHub/settings.py with your PostgreSQL credentials: <br />
+         DATABASES = { <br />
+          'default': { <br />
+              'ENGINE': 'django.db.backends.postgresql', <br />
+              'NAME': 'your_db_name', <br />
+              'USER': 'your_db_user', <br />
+              'PASSWORD': 'your_db_password', <br />
+              'HOST': 'your_db_host', <br />
+              'PORT': 'your_db_port', <br />
+          } <br />
+       }
 
 5. **Run Migrations** <br />
   python manage.py makemigrations <br />
@@ -65,9 +65,9 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
     Visit http://127.0.0.1:8000/ to access the application locally.
 
 ### Usage
-**Product Listing**: Browse products listed under various categories.
-**Cart Management**: Add products to the cart and manage cart items.
-**Order Processing**: Place orders and track order details.
+**Product Listing**: Browse products listed under various categories. <br />
+**Cart Management**: Add products to the cart and manage cart items. <br />
+**Order Processing**: Place orders and track order details. <br />
 
 ### Deployment <br />
 The application is deployed on Render. You can access it live at BuyHub on Render.

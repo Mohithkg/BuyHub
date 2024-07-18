@@ -36,7 +36,7 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
     source env/bin/activate <br /> # On Windows use `env\Scripts\activate`
 
 
-4. **Install the Required Packages** 
+4. **Install the Required Packages** <br />
     pip install -r requirements.txt
 
 5. **Configure PostgreSQL Database**
@@ -53,14 +53,14 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
     } <br />
 }
 
-5. **Run Migrations**
-  python manage.py makemigrations
+5. **Run Migrations** <br />
+  python manage.py makemigrations <br />
   python manage.py migrate
 
-6. **Create a Superuser**
+6. **Create a Superuser** <br />
   python manage.py createsuperuser
 
-7. **Run the Development Server**
+7. **Run the Development Server** <br />
    python manage.py runserver <br />
     Visit http://127.0.0.1:8000/ to access the application locally.
 
@@ -69,11 +69,11 @@ BuyHub is a comprehensive ecommerce application developed using Django for the b
 **Cart Management**: Add products to the cart and manage cart items.
 **Order Processing**: Place orders and track order details.
 
-### Deployment
+### Deployment <br />
 The application is deployed on Render. You can access it live at BuyHub on Render.
 
-### Contributing
+### Contributing <br />
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
-### License
+### License <br />
 This project is licensed under the MIT License.
